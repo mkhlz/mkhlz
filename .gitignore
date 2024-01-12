@@ -1,0 +1,13 @@
+node_modules
+.vscode
+.DS_Store
+bluepay-forms
+newrelic_agent.log
+public/logs/winston.log
+uploads
+venv/
+*.zip
+_temp
+
+# VSCODE
+*.code-workspace
