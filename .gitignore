@@ -8,6 +8,7 @@ uploads
 venv/
 *.zip
 _temp
+.angular
 
 # VSCODE
 *.code-workspace
