@@ -20,9 +20,9 @@ Hey there! Thanks for stopping by, feel free to grab anything you like. I love b
 - [Project-One](https://core.mytle.com) — CORE Child Care CRM
 
 ## GitHub Stats & Trophies
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight)
-![Trophy](https://github-profile-trophy.vercel.app/?username=YOUR_GITHUB_USERNAME&theme=onedark)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mkhlz&show_icons=true&theme=tokyonight&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mkhlz&layout=compact&theme=tokyonight)
+![Trophy](https://github-profile-trophy.vercel.app/?username=mkhlz&theme=onedark)
 
 ---
 
