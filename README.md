@@ -2,7 +2,7 @@
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira%20Code&size=24&duration=2500&pause=800&color=F7AB00&width=600&height=60&lines=Hi+there!+I%27m+MIKHIL.;I+build+things+with+code.;Open-source+%26+data+enthusiast.)
 
-[![Follow on GitHub](https://img.shields.io/github/followers/YOUR_GITHUB_USERNAME?label=Follow&style=social)](https://github.com/mkhlz) 
+[![Follow on GitHub](https://img.shields.io/github/followers/mkhlz?label=Follow&style=social)](https://github.com/mkhlz) 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/mkhlz) 
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL@example.com)
 
@@ -27,9 +27,9 @@ Hey there! Thanks for stopping by, feel free to grab anything you like. I love b
 ---
 
 ## Let’s connect
-- 🔗 Portfolio / Blog: https://YOUR_WEBSITE  
-- ✉️ Email: YOUR_EMAIL@example.com  
-- 💼 LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN
+- 🔗 Portfolio / Blog: work in progress
+- ✉️ Email: mikhil.mistry@gmail.com
+- 💼 LinkedIn: https://linkedin.com/in/mkhlz
 
 ---
 
