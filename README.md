@@ -1,4 +1,4 @@
-# Hi 👋 I'm YOUR NAME / @YOUR_GITHUB_USERNAME
+# Hi 👋 I'm Mikhil / @mkhlz
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira%20Code&size=24&duration=2500&pause=800&color=F7AB00&width=600&height=60&lines=Hi+there!+I%27m+YOUR+NAME.;I+build+things+with+code.;Open-source+%26+data+enthusiast.)
 
