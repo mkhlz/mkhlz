@@ -5,14 +5,14 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   mode: 'development',
-  entry: './src/js/main.js',
+  entry: './bin/www',
   output: {
-    filename: 'main.js',
+    filename: 'www',
     path: path.resolve(__dirname, 'dist')
   },
   devServer: {
     static: path.resolve(__dirname, 'dist'),
-    port: 8080,
+    port: 3020,
     hot: true
   },
   plugins: [
