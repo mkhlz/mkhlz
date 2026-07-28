@@ -89,7 +89,7 @@ A software and data engineer based in Mumbai, India, with roughly 10 years of ex
 <div align="center">
 
 <a href="https://leetcode.com/u/mkhlz/">
-  <img src="https://github-readme-leetcode-card.romitsagu.com/mkhlz?theme=tokyonight&show=graph,recent&hide_border=true" alt="LeetCode stats and recent activity" />
+  <img src="./assets/leetcode-card.svg" alt="Mikhil's LeetCode progress, streaks, and 52-week submission heatmap" />
 </a>
 
 </div>

@@ -1,0 +1,57 @@
+name: Update LeetCode card
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/scripts/generate-leetcode-card.mjs"
+      - ".github/workflows/update-leetcode-card.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-leetcode-card
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Generate LeetCode card
+        env:
+          LEETCODE_USERNAME: mkhlz
+          OUTPUT_PATH: assets/leetcode-card.svg
+        run: node .github/scripts/generate-leetcode-card.mjs
+
+      - name: Validate generated card
+        run: |
+          grep -q 'LeetCode Progress' assets/leetcode-card.svg
+          grep -Eq 'data-level="[1-4]"' assets/leetcode-card.svg
+          if grep -Eq 'undefined|NaN|GraphQL error' assets/leetcode-card.svg; then
+            echo "Generated card contains invalid values"
+            exit 1
+          fi
+
+      - name: Commit refreshed card
+        run: |
+          if git diff --quiet -- assets/leetcode-card.svg; then
+            echo "LeetCode card is already current"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/leetcode-card.svg
+          git commit -m "Refresh LeetCode profile card"
+          git push
