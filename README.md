@@ -20,7 +20,7 @@
 
 ## About Me
 
-I'm Mikhil Mistry, a software and data engineer based in Mumbai, India, with roughly 10 years of experience shipping software and untangling data. These days I also teach the craft as a Senior Instructor, helping career changers and engineers level up.
+A software and data engineer based in Mumbai, India, with roughly 10 years of experience shipping software and untangling data. These days I also teach the craft as a Senior Instructor, helping career changers and engineers level up.
 
 - A decade of building backends, data pipelines, and web apps that hold up in production
 - I care about clean code, pragmatic design, and systems that are easy to reason about
@@ -76,7 +76,7 @@ I'm Mikhil Mistry, a software and data engineer based in Mumbai, India, with rou
 <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=mkhlz&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&title_color=F7AB00&icon_color=F7AB00" alt="GitHub Stats" />
 <img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=mkhlz&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&title_color=F7AB00" alt="Top Languages" />
 
-<img src="https://streak-stats.demolab.com/?user=mkhlz&theme=tokyonight&hide_border=true&ring=F7AB00&fire=F7AB00&currStreakLabel=F7AB00" alt="GitHub Streak" />
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=mkhlz&theme=tokyonight&hide_border=true&ring=F7AB00&fire=F7AB00&currStreakLabel=F7AB00&v=2" alt="GitHub Streak" /></a>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=mkhlz&theme=tokyo-night&hide_border=true&bg_color=1a1b27&color=F7AB00&line=F7AB00&point=ffffff&area=true" alt="Contribution Activity Graph" />
 
@@ -89,7 +89,7 @@ I'm Mikhil Mistry, a software and data engineer based in Mumbai, India, with rou
 <div align="center">
 
 <a href="https://leetcode.com/u/mkhlz/">
-  <img src="https://leetcard.jacoblin.cool/mkhlz?theme=dark&font=Fira%20Code&ext=heatmap&animation=false" alt="LeetCode Stats" />
+  <img src="https://github-readme-leetcode-card.romitsagu.com/mkhlz?theme=tokyonight&show=graph,recent&hide_border=true" alt="LeetCode stats and recent activity" />
 </a>
 
 </div>
