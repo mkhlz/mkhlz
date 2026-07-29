@@ -1,14 +1,5 @@
-node_modules
 .env
-.vscode
+.vscode/
 .DS_Store
-bluepay-forms
-newrelic_agent.log
-public/logs/winston.log
-uploads
-venv/
-*.zip
-_temp
-
-# VSCODE
+Thumbs.db
 *.code-workspace
