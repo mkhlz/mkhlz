@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="920" height="470" viewBox="0 0 920 470" role="img" aria-labelledby="title description">
   <title id="title">Mikhil LeetCode progress</title>
-  <desc id="description">578 solved problems, 139 day current streak, and a 52 week submission heatmap.</desc>
+  <desc id="description">579 solved problems, 140 day current streak, and a 52 week submission heatmap.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#1a1b27"/>
@@ -33,22 +33,22 @@
       <path d="m18 12-9 9 9 9M27 12l9 9-9 9M25 9l-8 24" fill="none" stroke="#171824" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
     <text x="96" y="50" class="value" font-size="24">LeetCode Progress</text>
-    <text x="96" y="72" class="muted" font-size="13">@mkhlz · Updated 02 Aug 2026</text>
+    <text x="96" y="72" class="muted" font-size="13">@mkhlz · Updated 03 Aug 2026</text>
     <rect x="760" y="36" width="118" height="38" rx="19" fill="#272a3d" stroke="#3a3e57"/>
     <text x="819" y="52" class="muted" font-size="10" text-anchor="middle">GLOBAL RANK</text>
-    <text x="819" y="68" class="value" font-size="14" text-anchor="middle">#148,087</text>
+    <text x="819" y="68" class="value" font-size="14" text-anchor="middle">#147,717</text>
   </g>
 
   <g aria-label="Solved problem statistics">
     <rect class="panel" x="40" y="98" width="250" height="148" rx="14"/>
     <text x="62" y="123" class="label">PROBLEMS SOLVED</text>
-    <text x="62" y="164" class="value" font-size="34">578</text>
+    <text x="62" y="164" class="value" font-size="34">579</text>
     <text x="148" y="163" class="muted" font-size="15">/ 4,013</text>
     
     <rect class="track" x="62" y="181" width="206" height="9" rx="4.5"/>
-    <rect x="62" y="181" width="29.67" height="9" rx="4.5" fill="#f7ab00"/>
+    <rect x="62" y="181" width="29.72" height="9" rx="4.5" fill="#f7ab00"/>
     <text x="62" y="214" class="muted" font-size="11">14.4% complete</text>
-    <text x="267" y="214" fill="#f7ab00" font-size="11" font-weight="700" text-anchor="end">3,435 remaining</text>
+    <text x="267" y="214" fill="#f7ab00" font-size="11" font-weight="700" text-anchor="end">3,434 remaining</text>
 
     <rect class="panel" x="306" y="98" width="572" height="148" rx="14"/>
     
@@ -61,11 +61,11 @@
     <text x="863" y="126" class="muted" font-size="11" text-anchor="end">22.0%</text>
     
     <text x="328" y="165" fill="#ffc01e" font-size="12" font-weight="700">Medium</text>
-    <text x="422" y="165" class="value" font-size="14" text-anchor="end">286</text>
+    <text x="422" y="165" class="value" font-size="14" text-anchor="end">287</text>
     <text x="428" y="165" class="muted" font-size="11">/ 2,095</text>
     
     <rect class="track" x="503" y="155" width="348" height="8" rx="4"/>
-    <rect x="503" y="155" width="47.51" height="8" rx="4" fill="#ffc01e"/>
+    <rect x="503" y="155" width="47.67" height="8" rx="4" fill="#ffc01e"/>
     <text x="863" y="165" class="muted" font-size="11" text-anchor="end">13.7%</text>
     
     <text x="328" y="204" fill="#ef4743" font-size="12" font-weight="700">Hard</text>
@@ -79,7 +79,7 @@
 
   <g aria-label="Submission activity">
     <text x="40" y="273" class="label">SUBMISSION ACTIVITY · LAST 52 WEEKS</text>
-    <text x="878" y="273" class="muted" font-size="11" text-anchor="end">697 submissions across 337 active days</text>
+    <text x="878" y="273" class="muted" font-size="11" text-anchor="end">698 submissions across 338 active days</text>
 
     <text x="132" y="309" class="muted" font-size="10" text-anchor="end">Sun</text>
     <text x="132" y="336" class="muted" font-size="10" text-anchor="end">Tue</text>
@@ -1529,11 +1529,11 @@
           <title>01 Aug 2026: 1 submission</title>
         </rect>
         <rect x="841.05" y="300.00" width="10.5" height="10.5" rx="2"
-          fill="#24283b" data-level="0">
-          <title>02 Aug 2026: 0 submissions</title>
+          fill="#6f5100" data-level="1">
+          <title>02 Aug 2026: 1 submission</title>
         </rect>
         <rect x="841.05" y="313.55" width="10.5" height="10.5" rx="2"
-          fill="#1f2233" data-level="0">
+          fill="#24283b" data-level="0">
           <title>03 Aug 2026: 0 submissions</title>
         </rect>
         <rect x="841.05" y="327.10" width="10.5" height="10.5" rx="2"
@@ -1561,11 +1561,11 @@
       
     <circle cx="6" cy="5" r="5" fill="#f7ab00"/>
     <text x="18" y="2" class="muted" font-size="9">CURRENT STREAK</text>
-    <text x="18" y="16" class="value" font-size="12">139 days</text>
+    <text x="18" y="16" class="value" font-size="12">140 days</text>
       
     <circle cx="196" cy="5" r="5" fill="#ffd166"/>
     <text x="208" y="2" class="muted" font-size="9">BEST STREAK · 52W</text>
-    <text x="208" y="16" class="value" font-size="12">139 days</text>
+    <text x="208" y="16" class="value" font-size="12">140 days</text>
       
     <circle cx="401" cy="5" r="5" fill="#7aa2f7"/>
     <text x="413" y="2" class="muted" font-size="9">MOST ACTIVE WEEK</text>
