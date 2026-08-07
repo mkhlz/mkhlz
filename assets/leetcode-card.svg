@@ -33,10 +33,10 @@
       <path d="m18 12-9 9 9 9M27 12l9 9-9 9M25 9l-8 24" fill="none" stroke="#171824" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
     </g>
     <text x="96" y="50" class="value" font-size="24">LeetCode Progress</text>
-    <text x="96" y="72" class="muted" font-size="13">@mkhlz · Updated 06 Aug 2026</text>
+    <text x="96" y="72" class="muted" font-size="13">@mkhlz · Updated 07 Aug 2026</text>
     <rect x="760" y="36" width="118" height="38" rx="19" fill="#272a3d" stroke="#3a3e57"/>
     <text x="819" y="52" class="muted" font-size="10" text-anchor="middle">GLOBAL RANK</text>
-    <text x="819" y="68" class="value" font-size="14" text-anchor="middle">#147,530</text>
+    <text x="819" y="68" class="value" font-size="14" text-anchor="middle">#146,053</text>
   </g>
 
   <g aria-label="Solved problem statistics">
@@ -1549,7 +1549,7 @@
           <title>06 Aug 2026: 3 submissions</title>
         </rect>
         <rect x="841.05" y="367.75" width="10.5" height="10.5" rx="2"
-          fill="#1f2233" data-level="0">
+          fill="#24283b" data-level="0">
           <title>07 Aug 2026: 0 submissions</title>
         </rect>
         <rect x="841.05" y="381.30" width="10.5" height="10.5" rx="2"
