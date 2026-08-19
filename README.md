@@ -73,12 +73,9 @@ A software and data engineer based in Mumbai, India, with roughly 10 years of ex
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats-one-bice.vercel.app/api?username=mkhlz&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&title_color=F7AB00&icon_color=F7AB00" alt="GitHub Stats" />
-<img height="180em" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=mkhlz&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&title_color=F7AB00" alt="Top Languages" />
-
-<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats-eight.vercel.app?user=mkhlz&theme=tokyonight&hide_border=true&ring=F7AB00&fire=F7AB00&currStreakLabel=F7AB00&v=2" alt="GitHub Streak" /></a>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=mkhlz&theme=tokyo-night&hide_border=true&bg_color=1a1b27&color=F7AB00&line=F7AB00&point=ffffff&area=true" alt="Contribution Activity Graph" />
+<a href="https://github.com/mkhlz">
+  <img src="./assets/github-stats-card.svg" alt="Mikhil's GitHub contributions, top languages, and 52-week activity heatmap" />
+</a>
 
 </div>
 

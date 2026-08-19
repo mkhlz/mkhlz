@@ -1,21 +1,22 @@
-name: Update LeetCode card
+name: Update profile cards
 
 on:
   schedule:
     # Weekly (Mondays 02:17 UTC) instead of daily, to avoid flooding history
-    # with a commit every day just because the rolling 52-week heatmap shifts.
+    # with a commit every day just because the rolling 52-week heatmaps shift.
     - cron: "17 2 * * 1"
   workflow_dispatch:
   push:
     paths:
       - ".github/scripts/generate-leetcode-card.mjs"
-      - ".github/workflows/update-leetcode-card.yml"
+      - ".github/scripts/generate-github-stats-card.mjs"
+      - ".github/workflows/update-profile-cards.yml"
 
 permissions:
   contents: write
 
 concurrency:
-  group: update-leetcode-card
+  group: update-profile-cards
   cancel-in-progress: true
 
 jobs:
@@ -37,23 +38,40 @@ jobs:
           OUTPUT_PATH: assets/leetcode-card.svg
         run: node .github/scripts/generate-leetcode-card.mjs
 
-      - name: Validate generated card
+      - name: Generate GitHub stats card
+        env:
+          GITHUB_USERNAME: mkhlz
+          # Falls back to the default token; if the GraphQL query in
+          # generate-github-stats-card.mjs ever fails with a permissions
+          # error, add a repo secret named GH_STATS_TOKEN holding a
+          # personal access token with the read:user scope.
+          GITHUB_TOKEN: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          OUTPUT_PATH: assets/github-stats-card.svg
+        run: node .github/scripts/generate-github-stats-card.mjs
+
+      - name: Validate generated cards
         run: |
           grep -q 'LeetCode Progress' assets/leetcode-card.svg
           grep -Eq 'data-level="[1-4]"' assets/leetcode-card.svg
           if grep -Eq 'undefined|NaN|GraphQL error' assets/leetcode-card.svg; then
-            echo "Generated card contains invalid values"
+            echo "Generated LeetCode card contains invalid values"
             exit 1
           fi
 
-      - name: Commit refreshed card
+          grep -q 'GitHub Activity' assets/github-stats-card.svg
+          if grep -Eq 'undefined|NaN|GraphQL error' assets/github-stats-card.svg; then
+            echo "Generated GitHub stats card contains invalid values"
+            exit 1
+          fi
+
+      - name: Commit refreshed cards
         run: |
-          if git diff --quiet -- assets/leetcode-card.svg; then
-            echo "LeetCode card is already current"
+          if git diff --quiet -- assets/leetcode-card.svg assets/github-stats-card.svg; then
+            echo "Profile cards are already current"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/leetcode-card.svg
-          git commit -m "Refresh LeetCode profile card"
+          git add assets/leetcode-card.svg assets/github-stats-card.svg
+          git commit -m "Refresh profile cards"
           git push
