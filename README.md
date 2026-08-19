@@ -73,8 +73,8 @@ A software and data engineer based in Mumbai, India, with roughly 10 years of ex
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=mkhlz&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&title_color=F7AB00&icon_color=F7AB00" alt="GitHub Stats" />
-<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=mkhlz&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&title_color=F7AB00" alt="Top Languages" />
+<img height="180em" src="https://github-readme-stats-one-bice.vercel.app/api?username=mkhlz&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&title_color=F7AB00&icon_color=F7AB00" alt="GitHub Stats" />
+<img height="180em" src="https://github-readme-stats-one-bice.vercel.app/api/top-langs/?username=mkhlz&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&title_color=F7AB00" alt="Top Languages" />
 
 <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=mkhlz&theme=tokyonight&hide_border=true&ring=F7AB00&fire=F7AB00&currStreakLabel=F7AB00&v=2" alt="GitHub Streak" /></a>
 
