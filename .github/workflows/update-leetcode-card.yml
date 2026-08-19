@@ -2,7 +2,9 @@ name: Update LeetCode card
 
 on:
   schedule:
-    - cron: "17 2 * * *"
+    # Weekly (Mondays 02:17 UTC) instead of daily, to avoid flooding history
+    # with a commit every day just because the rolling 52-week heatmap shifts.
+    - cron: "17 2 * * 1"
   workflow_dispatch:
   push:
     paths:
