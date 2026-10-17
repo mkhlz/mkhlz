@@ -11,7 +11,6 @@
   <a href="mailto:mikhil.mistry@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20Hi-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=mkhlz&label=Profile%20views&color=F7AB00&style=flat" alt="Profile views" />
 <a href="https://github.com/mkhlz?tab=followers"><img src="https://img.shields.io/github/followers/mkhlz?label=Followers&style=flat&color=F7AB00" alt="Followers" /></a>
 
 </div>
