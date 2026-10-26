@@ -98,6 +98,7 @@ A software and data engineer based in Mumbai, India, with roughly 10 years of ex
 |---|---|---|
 | **[CORE](https://core.mytle.com)** | Child care CRM and operations platform for The Learning Experience. | `Node.js` `React` `jQuery` `pdf-lib` |
 | **[TimeClock](https://timeclock.mytle.com)** | Clock in and out system for checking children in and out of care. | `Node.js` `Keycloak` |
+| **[Chess Den](https://github.com/mkhlz/chess-den)** | Self-hosted chess server with Stockfish 19: play the engine at 8 levels or friends over WiFi, analysis board with game review, puzzles, and a searchable games archive. | `Node.js` `WebSockets` `SQLite` `Stockfish` |
 | **[mkhlz.net](https://mkhlz.net)** | Personal website, portfolio, and writing. | `Web` |
 
 ---
